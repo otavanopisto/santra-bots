@@ -6,7 +6,7 @@
 Otavantie 2 B
 50670 Otava
 Puh. 015 194 3552
-S-posti: info@otavanopisto.fi</template></category>
+S-posti: info@otavanopisto.fi
 Y-Tunnus: 0165116-3
 
 Verkkolaskutusoperaattori: Tieto Oyj
@@ -17,6 +17,8 @@ Paperilasku: OTAVAN OPISTO
 Sarjanumero 16804783
 PL 861
 00019 SSC
+
+</template></category>
 
 <category><pattern>TUNNUS</pattern><template>Y-tunnus: 0165116-3</template></category>
 <category><pattern>Y-TUNNUS</pattern><template>Y-tunnus: 0165116-3</template></category>
