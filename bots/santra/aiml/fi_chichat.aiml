@@ -39,7 +39,6 @@
 <template>
 <think>
     <random>
-        <li><set name="sana1"></set></li>
         <li><set name="sana1">Hyvää</set></li>
         <li><set name="sana1">Rattoisaa</set></li>
         <li><set name="sana1">Virkeää</set></li>
