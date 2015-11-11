@@ -35,6 +35,34 @@
 </category>
 
 <category> 
+<pattern>HUOMENTA</pattern>
+<template>
+<think>
+    <random>
+        <li><set name="sana1"></set></li>
+        <li><set name="sana1">Hyvää</set></li>
+        <li><set name="sana1">Rattoisaa</set></li>
+        <li><set name="sana1">Virkeää</set></li>
+        <li><set name="sana1">Mukavaa</set></li>
+    </random>
+    <random>
+        <li><set name="sana2">aamunalkua</set></li>
+        <li><set name="sana2">huomenta</set></li>
+        <li><set name="sana2">aamupäivää</set></li>
+        <li><set name="sana2">aamupuuhastelua</set></li>
+    </random>
+    <random>
+        <li><set name="sana3">sinne myös :)</set></li>
+        <li><set name="sana3">netin ulkopuolellekin :)</set></li>
+        <li><set name="sana3">ruudun ääreen :)</set></li>
+        <li><set name="sana3">ihmisille myös :)</set></li>
+    </random>
+</think>
+<get name="sana1"/> <get name="sana2"/> <get name="sana3"/>
+</template>
+</category>
+
+<category> 
 <pattern>FIILIS</pattern>
 <template>
 <think>
@@ -248,5 +276,7 @@
     </random>
 </template>
 </category>
+
+
 
 </aiml>
