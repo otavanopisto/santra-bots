@@ -7,6 +7,16 @@ Otavantie 2 B
 50670 Otava
 Puh. 015 194 3552
 S-posti: info@otavanopisto.fi</template></category>
+Y-Tunnus: 0165116-3
+
+Verkkolaskutusoperaattori: Tieto Oyj
+Välittäjätunnus: 003701011385 / OKOYFIHH
+Verkkolaskuosoite: TE003701651163006
+
+Paperilasku: OTAVAN OPISTO
+Sarjanumero 16804783
+PL 861
+00019 SSC
 
 <category><pattern>TUNNUS</pattern><template>Y-tunnus: 0165116-3</template></category>
 <category><pattern>Y-TUNNUS</pattern><template>Y-tunnus: 0165116-3</template></category>
@@ -25,6 +35,21 @@ Sarjanumero 16804783
 PL 861
 00019 SSC</template></category>
 
+<category><pattern>SP POLUTTAMO</pattern><template>
+Poluttamo sähköpostit: tuotantojoukkue:
+
+sari.jaaranen@otavanopisto.fi,miia.siven@otavanopisto.fi,anna.harmaa@otavanopisto.fi,riikka.lehtonen@otavanopisto.fi,saara.kotkaranta@otavanopisto.fi,taru.kekkonen@otavanopisto.fi,antti.viljakainen@otavanopisto.fi,ville.venalainen@otavanopisto.fi,titi.tamminen@eoppimiskeskus.fi,antti.leppa@otavanopisto.fi
+
+</template></category>
+
+<category><pattern>INFO KARI</pattern><template>
+Kari A. Hintikka <img src="https://pbs.twimg.com/profile_images/332015929/kari-img-220.jpg">
+Konsepti- ja käytettävyyssuunnittelija
+GSM +358 400 912 979
+Sp: kari.hintikka (a) otavanopisto.fi
+Slack: @kari
+
+</template></category>
 
 
 <category> 
