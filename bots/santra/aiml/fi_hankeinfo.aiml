@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- insert your AIML categories here -->
+
+<category><pattern>Hankkeet</pattern><template>Opisto tekee paljon juttuja.
+
+Tässäpä nämä, aika monta eikö vain? :) Ole hyvä ja kysy hankkeista lisää seuraavasti: <i>"info Hankkeennimi"</i>
+
+DIdact	                Digital learning, democracy, active citizenship and transparency - DIdact
+IhminenPlus
+Mobiili2	            Mobiiliopetusteknologia lukiolaisen arjessa ja oppimisen tukena -jatkohanke
+OPUS	                Oppikirja oppimisympäristönä
+E-Savon ympäristökasvatus	Etelä-Savon ympäristökasvatus tienhaarassa
+Osaava 3	            Osaava 3
+Romanihanke             Romanihanke / LAKE
+Oppivat koulut	        OPS-hautomot 2: Oppivat koulut
+VOK                     Verkko-oppimiskeskuksen esiselvitys
+Vapaasti Verkossa	    Vapaasti Verkossa
+OskOpistoverkosto2	    Osuuskuntaopistoverkosto 2
+IDEC/EUDEC	            IDEC/EUDEC
+OP4 AV 2 op	            OpenPäivitys 4, AV 2 op
+OP4 CPDLab 2 op	        OpenPäivitys 4, CPDLab 2 op
+MONNI2	                MONNI - Tuettua etäopiskelua perusopetuksen päättövaiheeseen
+Oppivat yhteisöt	    OPS-hautomot 3: Oppivat yhteisöt
+OPS-hautomot lukio	    OPS-hautomot lukio
+OP5 - vs ja aikuiskoulutus	OpenPäivitys 5 - vs ja aikuiskoulutus
+Erasmus+	            Erasmus+ kohti eurooppalaista verkko-oppimista
+Lorkers                 Lorkers - is lurking working?
+Viisari                 Viisari
+Jälkiä kartalle         Jälkiä kartalle - ympäristökasvatusta digitaalisesti
+Maahanmuuttajakoulutus	Yksilöllinen oppiminen maahanmuuttajakoulutuksessa
+Bittiope	            Opettajien ja pedagogisten ICT-tukihenkilöiden työn kehittäminen
+Osaava 4	            Osaamisen kehittämisen rakenteet pysyviksi - Osaava 4
+Mobility	            Mobility - Exchange of Teachers/pedagogical staff
+</template></category>
+
+
+<category> 
+<pattern>IHMINENPLUS INFO</pattern>
+<template>
+Projektin lyhenne: IhminenPlus (tai I+)
+Projektin nimi: IhminenPlus (tai I+)
+Opiston rooli: Päävastuu yhdessä Otavan Opiston Osuuskunnan kanssa sekä kumppaneita
+Mitä tehdään: I+ edelfoi-paneeli, vuosittainen seminaari elokuussa, blogi ja muita aktiviteetteja
+Kesto: 1.1.2015 - määrittelemätön
+Budjetti: Rahoitusta etsitään. Elokuun seminaarista 2015 hieman tuottoja
+Koordinoija: Ville Venäläinen, Hannu Linturi, Jere Rinne
+Google Drive: <a href="https://drive.google.com/drive/folders/0BwpkfM8K8BctflF4c0Y1RzhxUU5Ecng1d3U0MjlpM0dmYkZVU1B6N0I5akU2QkZ3WmpibXc" target="new">i+ Ihmisen ja teknologian muuttuva suhde -barometri</a>
+Www 1: <a href="http://www.ihminenplus.fi/" target="new">www.ihminenplus.fi</a>
+Www 2: -
+
+Kysy tarkemmin "info Hankkeennimi"
+</template>
+</category>
+
+<category> 
+<pattern>info VOK</pattern>
+<template>
+Projektin lyhenne: VOK
+Projektin nimi: VOK eli valtakunnallinen verkko-oppimiskeskus
+Pikakuvaus: VOK eli valtakunnallinen verkko-oppimiskeskus on monitahoinen kokonaishanke, joka tähtää organisaation tarjoamaan valtakunnalliseen verkko-oppimiskeskukseen vuonna 2017-2019.
+
+Tähän mennessä on toteutettu esiselvitys, jatkorahoitusta haetaan.
+
+Opiston rooli: Päävastuu ja oma projekti, yhdessä SeOppin kanssa sekä kumppaneita
+Mitä tehdään: Tuote- ja palvelukokonaisuus nettiin ensin alueellisesti, sitten valtakunnallisesti
+Kesto: 10.7.2013 - määrittelemätön. Esiselvitys (Taru Kekkonen, Annukka Manninen) toteutettiin 1.5.2014 - 31.5.2015.
+Budjetti: Rahoitusta etsitään, oletettavasti ESR. Esiselvitys XXX.
+Koordinoija: Ville Venäläinen, Taru Kekkonen
+Google Drive 1: <a href="https://drive.google.com/drive/folders/0B1Z6kqcDDXizfjdxTDVSTGxLQ3MzSHZkQmFEejVBN0ZVN0owWElQWUZaVTJKV1pQbGhRVTQ" target="new">VOK eli Valtakunnallinen verkko-oppimiskeskus</a>
+Google Drive 2: Lisäksi uusimpien VOK-dokumenttien <a href="https://docs.google.com/document/d/19nsxON3ggbHS-o69jbDe2HRMCCNIIEU5amAGLc84Loc/edit">pikalinkit tuosta.</a>
+Www 1: Esiselvityksellä ei ole omaa saittia, mutta <a href="http://live.grano.fi/ejulkaisu/Mikkelin_kaupunki/Verkko-oppimiskeskuksen_esiselvityshanke/">julkaisu löytyy netistä</a>.
+Www 2: -
+
+Kysy tarkemmin "info Hankkeennimi"
+</template>
+</category> 
+
+<category><pattern>SP POLUTTAMO</pattern><template>
+Poluttamo sähköpostit: tuotantojoukkue:
+
+sari.jaaranen@otavanopisto.fi,miia.siven@otavanopisto.fi,anna.harmaa@otavanopisto.fi,riikka.lehtonen@otavanopisto.fi,saara.kotkaranta@otavanopisto.fi,taru.kekkonen@otavanopisto.fi,antti.viljakainen@otavanopisto.fi,ville.venalainen@otavanopisto.fi,titi.tamminen@eoppimiskeskus.fi,antti.leppa@otavanopisto.fi
+
+</template></category>
+
+<category><pattern>INFO POLUTTAMO</pattern><template>
+Poluttamo sähköpostit: tuotantojoukkue:
+
+sari.jaaranen@otavanopisto.fi,miia.siven@otavanopisto.fi,anna.harmaa@otavanopisto.fi,riikka.lehtonen@otavanopisto.fi,saara.kotkaranta@otavanopisto.fi,taru.kekkonen@otavanopisto.fi,antti.viljakainen@otavanopisto.fi,ville.venalainen@otavanopisto.fi,titi.tamminen@eoppimiskeskus.fi,antti.leppa@otavanopisto.fi
+
+</template></category>
+
+</aiml>
