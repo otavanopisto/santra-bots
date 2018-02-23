@@ -4,49 +4,41 @@
 
 <category><pattern>Hankkeet</pattern><template>Opisto tekee paljon juttuja.
 
-Tässäpä nämä, aika monta eikö vain? :) Ole hyvä ja kysy hankkeista lisää seuraavasti: <i>"info Hankkeennimi"</i>
+Tässäpä nämä, aika monta eikö vain? :) Ole hyvä ja kysy hankkeista lisää seuraavasti: <i>Hankkeenlyhennetainimi</i> info
 
-Bittiope	            		Opettajien ja pedagogisten ICT-tukihenkilöiden työn kehittäminen
-DIdact	                	Digital learning, democracy, active citizenship and transparency - DIdact
-E-Savon ympäristökasvatus	Etelä-Savon ympäristökasvatus tienhaarassa
-
-Erasmus+	            		Erasmus+ kohti eurooppalaista verkko-oppimista
-IDEC/EUDEC	            	IDEC/EUDEC
+DIdact	                Digital learning, democracy, active citizenship and transparency - DIdact
 IhminenPlus
-
-Jälkiä kartalle         		Jälkiä kartalle - ympäristökasvatusta digitaalisesti
-Lorkers                 		Lorkers - is lurking working?
-Maahanmuuttajakoulutus		Yksilöllinen oppiminen maahanmuuttajakoulutuksessa
-
-Mobiili2	            		Mobiiliopetusteknologia lukiolaisen arjessa ja oppimisen tukena -jatkohanke
-Mobility	            		Mobility - Exchange of Teachers/pedagogical staff
-MONNI2	                	MONNI - Tuettua etäopiskelua perusopetuksen päättövaiheeseen
-
-OP4 AV 2 op	            	OpenPäivitys 4, AV 2 op
-OP4 CPDLab 2 op	        	OpenPäivitys 4, CPDLab 2 op
+Mobiili2	            Mobiiliopetusteknologia lukiolaisen arjessa ja oppimisen tukena -jatkohanke
+OPUS	                Oppikirja oppimisympäristönä
+E-Savon ympäristökasvatus	Etelä-Savon ympäristökasvatus tienhaarassa
+Osaava 3	            Osaava 3
+Romanihanke             Romanihanke / LAKE
+Oppivat koulut	        OPS-hautomot 2: Oppivat koulut
+VOK                     Verkko-oppimiskeskuksen esiselvitys
+Vapaasti Verkossa	    Vapaasti Verkossa
+OskOpistoverkosto2	    Osuuskuntaopistoverkosto 2
+IDEC/EUDEC	            IDEC/EUDEC
+OP4 AV 2 op	            OpenPäivitys 4, AV 2 op
+OP4 CPDLab 2 op	        OpenPäivitys 4, CPDLab 2 op
+MONNI2	                MONNI - Tuettua etäopiskelua perusopetuksen päättövaiheeseen
+Oppivat yhteisöt	    OPS-hautomot 3: Oppivat yhteisöt
+OPS-hautomot lukio	    OPS-hautomot lukio
 OP5 - vs ja aikuiskoulutus	OpenPäivitys 5 - vs ja aikuiskoulutus
-
-Oppivat koulut	        		OPS-hautomot 2: Oppivat koulut
-Oppivat yhteisöt	    		OPS-hautomot 3: Oppivat yhteisöt
-OPS-hautomot lukio	    		OPS-hautomot lukio
-
-OPUS	                		Oppikirja oppimisympäristönä
-Osaava 3	            		Osaava 3
-Osaava 4	            		Osaamisen kehittämisen rakenteet pysyviksi - Osaava 4
-
-OskOpistoverkosto2	    		Osuuskuntaopistoverkosto 2
-Romanihanke             		Romanihanke / LAKE
-Vapaasti Verkossa	    		Vapaasti Verkossa
-
-Viisari                 		Viisari
-VOK                     		Verkko-oppimiskeskuksen esiselvitys
+Erasmus+	            Erasmus+ kohti eurooppalaista verkko-oppimista
+Lorkers                 Lorkers - is lurking working?
+Viisari                 Viisari
+Jälkiä kartalle         Jälkiä kartalle - ympäristökasvatusta digitaalisesti
+Maahanmuuttajakoulutus	Yksilöllinen oppiminen maahanmuuttajakoulutuksessa
+Bittiope	            Opettajien ja pedagogisten ICT-tukihenkilöiden työn kehittäminen
+Osaava 4	            Osaamisen kehittämisen rakenteet pysyviksi - Osaava 4
+Mobility	            Mobility - Exchange of Teachers/pedagogical staff
 </template></category>
 
 
 <category> 
-<pattern>INFO IHMINENPLUS</pattern>
+<pattern>IHMINENPLUS INFO</pattern>
 <template>
-Lyhenne: IhminenPlus (tai I+)
+Projektin lyhenne: IhminenPlus (tai I+)
 Projektin nimi: IhminenPlus (tai I+)
 Opiston rooli: Päävastuu yhdessä Otavan Opiston Osuuskunnan kanssa sekä kumppaneita
 Mitä tehdään: I+ edelfoi-paneeli, vuosittainen seminaari elokuussa, blogi ja muita aktiviteetteja
@@ -57,12 +49,12 @@ Google Drive: <a href="https://drive.google.com/drive/folders/0BwpkfM8K8BctflF4c
 Www 1: <a href="http://www.ihminenplus.fi/" target="new">www.ihminenplus.fi</a>
 Www 2: -
 
-Kysy tarkemmin "info Hankkeennimi"
+Kysy tarkemmin "hankkeennimi kuvaus"
 </template>
 </category>
 
 <category> 
-<pattern>info VOK</pattern>
+<pattern>VOK info</pattern>
 <template>
 Projektin lyhenne: VOK
 Projektin nimi: VOK eli valtakunnallinen verkko-oppimiskeskus
@@ -80,41 +72,9 @@ Google Drive 2: Lisäksi uusimpien VOK-dokumenttien <a href="https://docs.google
 Www 1: Esiselvityksellä ei ole omaa saittia, mutta <a href="http://live.grano.fi/ejulkaisu/Mikkelin_kaupunki/Verkko-oppimiskeskuksen_esiselvityshanke/">julkaisu löytyy netistä</a>.
 Www 2: -
 
-Kysy tarkemmin "info Hankkeennimi"
+Kysy tarkemmin "hankkeennimi kuvaus"
 </template>
 </category> 
 
-
-
-
-<category><pattern>INFO POLUTTAMO</pattern><template>
-
-Lyhenne:        Poluttamo
-Nimi:           Poluttamo - Oma digipolku oppimiseen S20508 (ESR-hanke)
-Pikakuvaus: XXX
-
-Opiston rooli:  Toteuttaja, 2 osahanketta: oppimisanalytiikka ja Visuaalinen HOPS, yhdessä SeOppin kanssa sekä kumppaneita
-Mitä tehdään:   XXX
-
-Kesto:          1.11.2015 - 31.10.2018 XXX
-Budjetti:       XXX euroa vuosille 2015-2018
-Koordinoija:    Ville Venäläinen, Taru Kekkonen XXX
-
-Juokseva muistio:	https://docs.google.com/document/d/1j-Mk9l8MMZXPIaf885rUZWrvWk-KoSDDHaBaNSe3MUU/edit
-Käynnistyskokous:	https://docs.google.com/document/d/1zhHcS2NSyTAQM6g8zVVIB8DS_712jwoA4zR8AfaRHRw/edit#
-Kaavio:			https://docs.google.com/drawings/d/1iZe-i6yrH3DsXUa4CWPxEbnqyExR3q8eNa_1fymveGU/edit
-
-Sisäinen kansio:	https://drive.google.com/drive/folders/0B1MPKHzZod-WSGpwV2R4TjhfWVU
-Hankesuunnitelma:	https://docs.google.com/document/d/1pCcDaTf1AhD6_OZey5UphjfUd3hCP5D-4EKaSvEIn1E/edit#
-ESR Taustalomake:	https://docs.google.com/document/d/1fIgI66kK_MVoJLPwKBHvEY9SGNXdAFPkBnDIqGmAgpU/edit?usp=sharing
-
-</template></category>
-
-<category><pattern>SP POLUTTAMO</pattern><template>
-Poluttamo sähköpostit: tuotantojoukkue:
-
-sari.jaaranen@otavanopisto.fi,miia.siven@otavanopisto.fi,anna.harmaa@otavanopisto.fi,riikka.lehtonen@otavanopisto.fi,saara.kotkaranta@otavanopisto.fi,taru.kekkonen@otavanopisto.fi,antti.viljakainen@otavanopisto.fi,ville.venalainen@otavanopisto.fi,titi.tamminen@eoppimiskeskus.fi,antti.leppa@otavanopisto.fi
-
-</template></category>
 
 </aiml>
