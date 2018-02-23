@@ -23,11 +23,25 @@
     </template>
 </category>
 
+<category>
+    <pattern>MORO</pattern>
+    <template>
+        <srai>MOI</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>TERVE</pattern>
+    <template>
+        <srai>MOI</srai>
+    </template>
+</category>
+
 <category><pattern>MOI</pattern>
 <template>
     <random>
         <li> Moi :)</li>
-        <li> Hei :) Kirjoita "santra ?"</li>
+        <li> Hei :)</li>
         <li> Moippa. Mites menee?</li>
         <li> Terve :) Mites sujuu?</li>
     </random>
