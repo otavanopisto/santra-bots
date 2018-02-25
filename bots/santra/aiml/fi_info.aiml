@@ -54,20 +54,11 @@ Slack: @kari
 </template></category>
 
 
-<category> 
-<pattern>LOUNASLISTA</pattern>
-<template>
-<think>
-<set name="kalaa"><star/></set>
-</think>
-<condition name="kalaa"> 
-<li value="lounas">
+<category><pattern>LOUNASLISTA</pattern><template>
 Porsasta yrttikastikkeessa(A, L, VS) 
 Leipurinperunaa(*, G, L, M) 
 Paahdettuja porkkanoita(G, L, M) 
 4,95/ 8,20/ 8,90
-</li>
-</condition>
 </template>
 </category>
 
