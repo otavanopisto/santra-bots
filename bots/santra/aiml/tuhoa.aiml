@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Nippeli.aiml -->
+<!-- Free software (c)2005 SQUAREBEAR. -->
+<!-- Free software (c)2018 Otava Folk School http://www.otavanopisto.fi/. -->
+<!-- This AIML script is open source code released under -->
+<!-- the terms of the GNU General Public License -->
+<!-- as published by Otava Folk School -->
+<!-- and based on the script Wordplay.aiml by the Free Software Foundation. -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation. -->
+
+
+<category>
+<pattern>WORDPLAY</pattern>
+<template>Welcome to my anagram game.<br/>I am going to jumble a nine letter word up and you have to guess what it is.<br/>You must solve each anagram correctly to continue.
+<br/>Type START to begin the anagram game.</template>
+</category>
+
+<category>
+<pattern>START</pattern>
+<that>TYPE START TO BEGIN THE ANAGRAM GAME</that>
+<template>
+<think><set name="anagramscore">0</set>
+<set name="topic">WORDPLAY</set>
+</think>
+Here comes the first anagram.<br/>I've jumbled a word up, but which word is it?<br/>(Type QUITGAME if you give up).<br/><br/><srai>XANAGRAM</srai></template>
+</category>
+
+<category>
+<pattern>QUITGAME</pattern>
+<template>
+The answer was <get name="anagramanswer"/>!<br/>
+Your final score was :<get name="anagramscore"/>.<br/><br/>
+Type START to begin the anagram game.</template>
+</category>
+
+<!-- Give a congratulation message and add 1 to the score -->
+
+
+<category>
+<pattern>XANAGRAMYES</pattern>
+<template>
+<srai>XANAGRAMSCORE</srai>
+<random>
+<li>Hienoa :)</li>
+<li>Aivan oikein :)</li>
+<li>Mainiota :)</li>
+<li>Erittäin hyvä :)</li>
+<li>Aivan oikea vastaus :)</li>
+<li>Oikein, olet etevä kemian alkuaineissa :)</li>
+</random>
+<br/>Your score is :<get name="anagramscore"/><br/>
+<random>
+<li>Ja seuraava.</li>
+<li>Sitten seuraava.</li>
+<li>Entä tämä?</li>
+<li>Ja uusi.</li>
+</random>
+<br/>(Type QUITGAME if you give up).<br/><br/>
+<srai>XANAGRAM</srai>
+</template>
+</category>
+
+
+<!-- Place the jumbled up words and the answers in here -->
+
+<category>
+<pattern>XANAGRAM</pattern>
+<template>
+<random>
+<li>Minkä alkuaineen lyhenne on <br/><set name="topic">H</set><think><set name="anagramanswer">Vety</set></think></li>
+<li>Minkä alkuaineen lyhenne on <br/><set name="topic">He</set><think><set name="anagramanswer">Helium</set></think></li>
+<li>Minkä alkuaineen lyhenne on <br/><set name="topic">Li</set><think><set name="anagramanswer">Litium</set></think></li>
+<li>Minkä alkuaineen lyhenne on <br/><set name="topic">Be</set><think><set name="anagramanswer">Beryllium</set></think></li>
+<li>Minkä alkuaineen lyhenne on <br/><set name="topic">B</set><think><set name="anagramanswer">Boori</set></think></li>
+</random>
+</template>
+</category>
+
+
+<!-- Place the correct answers here -->
+
+<topic name="NOMSTORAY"> 
+<category> 
+<pattern>_</pattern>
+<template>
+<think>
+<set name="topic"></set>
+<set name="inp"><star/></set>
+</think>
+<condition name="inp">
+<li value="ASTRONOMY"><srai>XANAGRAMYES</srai></li>
+<li value="QUITGAME"><srai>QUITGAME</srai></li>
+<li>Sorry "<star/>" is incorrect.<srai>QUITGAME</srai></li>
+</condition>
+</template>
+</category>
+</topic>
+
+
+<topic name="H"> 
+<category> 
+<pattern>_</pattern>
+<template>
+<think>
+<set name="topic"></set>
+<set name="inp"><star/></set>
+</think>
+<condition name="inp">
+<li value="Vety"><srai>XANAGRAMYES</srai></li>
+<li value="QUITGAME"><srai>QUITGAME</srai></li>
+<li>Sorry "<star/>" is incorrect.<srai>QUITGAME</srai></li>
+</condition>
+</template>
+</category>
+</topic>
+
+<topic name="He"> 
+<category> 
+<pattern>_</pattern>
+<template>
+<think>
+<set name="topic"></set>
+<set name="inp"><star/></set>
+</think>
+<condition name="inp">
+<li value="Helium"><srai>XANAGRAMYES</srai></li>
+<li value="QUITGAME"><srai>QUITGAME</srai></li>
+<li>Sorry "<star/>" is incorrect.<srai>QUITGAME</srai></li>
+</condition>
+</template>
+</category>
+</topic>
+
+<topic name="Li"> 
+<category> 
+<pattern>_</pattern>
+<template>
+<think>
+<set name="topic"></set>
+<set name="inp"><star/></set>
+</think>
+<condition name="inp">
+<li value="Litium"><srai>XANAGRAMYES</srai></li>
+<li value="QUITGAME"><srai>QUITGAME</srai></li>
+<li>Sorry "<star/>" is incorrect.<srai>QUITGAME</srai></li>
+</condition>
+</template>
+</category>
+</topic>
+
+<topic name="Be"> 
+<category> 
+<pattern>_</pattern>
+<template>
+<think>
+<set name="topic"></set>
+<set name="inp"><star/></set>
+</think>
+<condition name="inp">
+<li value="Beryllium"><srai>XANAGRAMYES</srai></li>
+<li value="QUITGAME"><srai>QUITGAME</srai></li>
+<li>Sorry "<star/>" is incorrect.<srai>QUITGAME</srai></li>
+</condition>
+</template>
+</category>
+</topic>
+
+<topic name="B"> 
+<category> 
+<pattern>_</pattern>
+<template>
+<think>
+<set name="topic"></set>
+<set name="inp"><star/></set>
+</think>
+<condition name="inp">
+<li value="Boori"><srai>XANAGRAMYES</srai></li>
+<li value="QUITGAME"><srai>QUITGAME</srai></li>
+<li>Sorry "<star/>" is incorrect.<srai>QUITGAME</srai></li>
+</condition>
+</template>
+</category>
+</topic>
+
+<!-- This part keeps score up to fifty correct answers -->
+
+<category>
+<pattern>XANAGRAMSCORE</pattern> 
+<template>
+<think>
+	<condition name="anagramscore"> 
+		<li value="0"><set name="anagramscore">1</set></li>
+		<li value="1"><set name="anagramscore">2</set></li> 
+		<li value="2"><set name="anagramscore">3</set></li> 
+		<li value="3"><set name="anagramscore">4</set></li> 
+		<li value="4"><set name="anagramscore">5</set></li> 
+		<li value="5"><set name="anagramscore">6</set></li> 
+		<li value="6"><set name="anagramscore">7</set></li> 
+		<li value="7"><set name="anagramscore">8</set></li> 
+		<li value="8"><set name="anagramscore">9</set></li> 
+		<li value="9"><set name="anagramscore">10</set></li> 
+		<li value="10"><set name="anagramscore">11</set></li>
+		<li value="11"><set name="anagramscore">12</set></li> 
+		<li value="12"><set name="anagramscore">13</set></li> 
+		<li value="13"><set name="anagramscore">14</set></li> 
+		<li value="14"><set name="anagramscore">15</set></li> 
+		<li value="15"><set name="anagramscore">16</set></li> 
+		<li value="16"><set name="anagramscore">17</set></li> 
+		<li value="17"><set name="anagramscore">18</set></li> 
+		<li value="18"><set name="anagramscore">19</set></li> 
+		<li value="19"><set name="anagramscore">20</set></li> 
+		<li value="20"><set name="anagramscore">21</set></li>
+		<li value="21"><set name="anagramscore">22</set></li> 
+		<li value="22"><set name="anagramscore">23</set></li> 
+		<li value="23"><set name="anagramscore">24</set></li> 
+		<li value="24"><set name="anagramscore">25</set></li> 
+		<li value="25"><set name="anagramscore">26</set></li> 
+		<li value="26"><set name="anagramscore">27</set></li> 
+		<li value="27"><set name="anagramscore">28</set></li> 
+		<li value="28"><set name="anagramscore">29</set></li> 
+		<li value="29"><set name="anagramscore">30</set></li> 
+		<li value="30"><set name="anagramscore">31</set></li>
+		<li value="31"><set name="anagramscore">32</set></li> 
+		<li value="32"><set name="anagramscore">33</set></li> 
+		<li value="33"><set name="anagramscore">34</set></li> 
+		<li value="34"><set name="anagramscore">35</set></li> 
+		<li value="35"><set name="anagramscore">36</set></li> 
+		<li value="36"><set name="anagramscore">37</set></li> 
+		<li value="37"><set name="anagramscore">38</set></li> 
+		<li value="38"><set name="anagramscore">39</set></li> 
+		<li value="39"><set name="anagramscore">40</set></li> 
+		<li value="40"><set name="anagramscore">41</set></li>
+		<li value="41"><set name="anagramscore">42</set></li> 
+		<li value="42"><set name="anagramscore">43</set></li> 
+		<li value="43"><set name="anagramscore">44</set></li> 
+		<li value="44"><set name="anagramscore">45</set></li> 
+		<li value="45"><set name="anagramscore">46</set></li> 
+		<li value="46"><set name="anagramscore">47</set></li> 
+		<li value="47"><set name="anagramscore">48</set></li> 
+		<li value="48"><set name="anagramscore">49</set></li> 
+		<li value="49"><set name="anagramscore">50</set></li> 
+	</condition>
+</think> 
+</template>
+</category>
+
+</aiml>
