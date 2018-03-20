@@ -9,6 +9,15 @@
     </template>
 </category>
 
+<category><pattern>KALAA</pattern>
+<template>
+    <random>
+        <li> Kevät </li>
+        <li> Hienoa </li>
+    </random>
+</template>
+</category>
+
 <category>
     <pattern>MOIPPA</pattern>
     <template>
