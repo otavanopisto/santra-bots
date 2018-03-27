@@ -24,14 +24,14 @@
 <think><set name="anagramscore">0</set>
 <set name="topic">NIPPELI</set>
 </think>
-T‰ss‰ ensimm‰inen kysymys. Kirjoita LOPETA kun haluat lopettaa visailun.<br/><srai>XALKUAINE</srai></template>
+T√§ss√§ ensimm√§inen kysymys. Kirjoita LOPETA kun haluat lopettaa visailun.<br/><srai>XALKUAINE</srai></template>
 </category>
 
 <category>
 <pattern>LOPETA</pattern>
 <template>
-vaan <get name="anagramanswer"/>. Sait pisteit‰ <get name="anagramscore"/>.
-Kirjoita NIPPELI kokeillaksesi uudestaan visailuja.</template>
+vaan <get name="anagramanswer"/>. Sait pisteit√§ <get name="anagramscore"/>.
+Ole hyv√§ ja kirjoita NIPPELI kokeillaksesi uudestaan visailuja.</template>
 </category>
 
 <!-- Give a congratulation message and add 1 to the score -->
@@ -46,20 +46,20 @@ Kirjoita NIPPELI kokeillaksesi uudestaan visailuja.</template>
 <li><set name="tsemppi">Hienoa :)</set></li>
 <li><set name="tsemppi">Aivan oikein :)</set></li>
 <li><set name="tsemppi">Mainiota :)</set></li>
-<li><set name="tsemppi">Eritt‰in hyv‰ :)</set></li>
+<li><set name="tsemppi">Eritt√§in hyv√§ :)</set></li>
 <li><set name="tsemppi">Aivan oikea vastaus :)</set></li>
-<li><set name="tsemppi">Oikein - olet etev‰ :)</set></li>
+<li><set name="tsemppi">Oikein - olet etev√§ :)</set></li>
 </random>
 
 <random>
 <li><set name="seuraavakysymys"> Ja seuraava kysymys: </set></li>
 <li><set name="seuraavakysymys"> Sitten seuraava: </set></li>
-<li><set name="seuraavakysymys"> Ent‰ t‰m‰? </set></li>
+<li><set name="seuraavakysymys"> Ent√§ t√§m√§? </set></li>
 <li><set name="seuraavakysymys"> Ja uusi kysymys: </set></li>
 </random>
 </think>
 
-<get name="tsemppi"/> Olet vastannut oikein <get name="anagramscore"/> kertaa per‰kk‰in. <get name="seuraavakysymys"/>
+<get name="tsemppi"/> Olet vastannut oikein <get name="anagramscore"/> kertaa per√§kk√§in. <get name="seuraavakysymys"/>
 (Kirjoita LOPETA jos haluat lopettaa visailun).
 <srai>XALKUAINE</srai>
 </template>
@@ -71,16 +71,16 @@ Kirjoita NIPPELI kokeillaksesi uudestaan visailuja.</template>
 <pattern>XALKUAINE</pattern>
 <template>
 <random>
-<li>Mink‰ alkuaineen lyhenne on <br/><set name="topic">H</set><think><set name="anagramanswer">Vety</set></think></li>
-<li>Mink‰ alkuaineen lyhenne on <br/><set name="topic">He</set><think><set name="anagramanswer">Helium</set></think></li>
-<li>Mink‰ alkuaineen lyhenne on <br/><set name="topic">Li</set><think><set name="anagramanswer">Litium</set></think></li>
-<li>Mink‰ alkuaineen lyhenne on <br/><set name="topic">Be</set><think><set name="anagramanswer">Beryllium</set></think></li>
-<li>Mink‰ alkuaineen lyhenne on <br/><set name="topic">B</set><think><set name="anagramanswer">Boori</set></think></li>
-<li>Mink‰ alkuaineen lyhenne on <br/><set name="topic">C</set><think><set name="anagramanswer">Hiili</set></think></li>
-<li>Mink‰ alkuaineen lyhenne on <br/><set name="topic">N</set><think><set name="anagramanswer">Typpi</set></think></li>
-<li>Mink‰ alkuaineen lyhenne on <br/><set name="topic">O</set><think><set name="anagramanswer">Happi</set></think></li>
-<li>Mink‰ alkuaineen lyhenne on <br/><set name="topic">F</set><think><set name="anagramanswer">Fluori</set></think></li>
-<li>Mink‰ alkuaineen lyhenne on <br/><set name="topic">Ne</set><think><set name="anagramanswer">Neon</set></think></li>
+<li>Mink√§ alkuaineen lyhenne on <br/><set name="topic">H</set><think><set name="anagramanswer">Vety</set></think></li>
+<li>Mink√§ alkuaineen lyhenne on <br/><set name="topic">He</set><think><set name="anagramanswer">Helium</set></think></li>
+<li>Mink√§ alkuaineen lyhenne on <br/><set name="topic">Li</set><think><set name="anagramanswer">Litium</set></think></li>
+<li>Mink√§ alkuaineen lyhenne on <br/><set name="topic">Be</set><think><set name="anagramanswer">Beryllium</set></think></li>
+<li>Mink√§ alkuaineen lyhenne on <br/><set name="topic">B</set><think><set name="anagramanswer">Boori</set></think></li>
+<li>Mink√§ alkuaineen lyhenne on <br/><set name="topic">C</set><think><set name="anagramanswer">Hiili</set></think></li>
+<li>Mink√§ alkuaineen lyhenne on <br/><set name="topic">N</set><think><set name="anagramanswer">Typpi</set></think></li>
+<li>Mink√§ alkuaineen lyhenne on <br/><set name="topic">O</set><think><set name="anagramanswer">Happi</set></think></li>
+<li>Mink√§ alkuaineen lyhenne on <br/><set name="topic">F</set><think><set name="anagramanswer">Fluori</set></think></li>
+<li>Mink√§ alkuaineen lyhenne on <br/><set name="topic">Ne</set><think><set name="anagramanswer">Neon</set></think></li>
 
 </random>
 </template>
@@ -166,6 +166,91 @@ Kirjoita NIPPELI kokeillaksesi uudestaan visailuja.</template>
 </think>
 <condition name="inp">
 <li value="Boori"><srai>XALKUAINEYES</srai></li>
+<li value="LOPETA"><srai>LOPETA</srai></li>
+<li>Valitettavasti "<star/>" ei ole oikea vastaus <srai>LOPETA</srai></li>
+</condition>
+</template>
+</category>
+</topic>
+
+<topic name="C"> 
+<category> 
+<pattern>_</pattern>
+<template>
+<think>
+<set name="topic"></set>
+<set name="inp"><star/></set>
+</think>
+<condition name="inp">
+<li value="Hiili"><srai>XALKUAINEYES</srai></li>
+<li value="LOPETA"><srai>LOPETA</srai></li>
+<li>Valitettavasti "<star/>" ei ole oikea vastaus <srai>LOPETA</srai></li>
+</condition>
+</template>
+</category>
+</topic>
+
+<topic name="N"> 
+<category> 
+<pattern>_</pattern>
+<template>
+<think>
+<set name="topic"></set>
+<set name="inp"><star/></set>
+</think>
+<condition name="inp">
+<li value="Typpi"><srai>XALKUAINEYES</srai></li>
+<li value="LOPETA"><srai>LOPETA</srai></li>
+<li>Valitettavasti "<star/>" ei ole oikea vastaus <srai>LOPETA</srai></li>
+</condition>
+</template>
+</category>
+</topic>
+
+<topic name="O"> 
+<category> 
+<pattern>_</pattern>
+<template>
+<think>
+<set name="topic"></set>
+<set name="inp"><star/></set>
+</think>
+<condition name="inp">
+<li value="Happi"><srai>XALKUAINEYES</srai></li>
+<li value="LOPETA"><srai>LOPETA</srai></li>
+<li>Valitettavasti "<star/>" ei ole oikea vastaus <srai>LOPETA</srai></li>
+</condition>
+</template>
+</category>
+</topic>
+
+<topic name="F"> 
+<category> 
+<pattern>_</pattern>
+<template>
+<think>
+<set name="topic"></set>
+<set name="inp"><star/></set>
+</think>
+<condition name="inp">
+<li value="Fluori"><srai>XALKUAINEYES</srai></li>
+<li value="LOPETA"><srai>LOPETA</srai></li>
+<li>Valitettavasti "<star/>" ei ole oikea vastaus <srai>LOPETA</srai></li>
+</condition>
+</template>
+</category>
+</topic>
+
+<topic name="Ne"> 
+<category> 
+<pattern>_</pattern>
+<template>
+<think>
+<set name="topic"></set>
+<set name="inp"><star/></set>
+</think>
+<condition name="inp">
+<li value="Neon"><srai>XALKUAINEYES</srai></li>
 <li value="LOPETA"><srai>LOPETA</srai></li>
 <li>Valitettavasti "<star/>" ei ole oikea vastaus <srai>LOPETA</srai></li>
 </condition>
